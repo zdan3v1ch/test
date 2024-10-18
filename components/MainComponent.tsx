@@ -6,7 +6,7 @@ const MainComponent = ({ children, keywords }) => {
   return (
     <>
       <Head>
-        <meta keywords={"something to do" + keywords}></meta>
+        <meta name='keywords' content={"something to do" + keywords}></meta>
         <title>Main page</title>
       </Head>
       <div className="navbar">
